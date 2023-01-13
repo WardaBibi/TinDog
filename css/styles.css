@@ -1,0 +1,145 @@
+
+
+/* headings */
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Montserrat', sans-serif
+}
+.big-head{
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.second-head {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.third-head {
+
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+/* sections */
+.colored-section{
+  background-color: #ff4c68;
+  color: white;
+}
+.white-section{
+  background-color: white;
+}
+p {
+  color: grey;
+}
+/*  */
+.container-fluid {
+  padding: 1% 15% 4%;
+}
+/* navbar */
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+/* home */
+
+.tit-images {
+      width: 27%;
+      position: absolute;
+      transform: rotate(25deg);
+      right:15%;
+}
+/* features */
+#features {
+  padding: 7% 15%;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 5%;
+   position: relative;
+  color: white;
+    z-index: 1;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.icon {
+  color: #ef8172;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+/* testimonial */
+#testimonials{
+  padding:7% 15%;
+  background-color:  #ef8172;
+  text-align: center;
+  color:white;
+}
+
+.test-img{
+  border-radius: 100%;
+  width:15%;
+  margin: 20px;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 6%;
+}
+.pr-img{
+  width:15%;
+  margin: 3% 3% auto auto;
+}
+/* pricing */
+#pricing{
+  text-align: center;
+  margin:10% 8% 4%;
+}
+/* download */
+#cta{
+    padding: 7% 7% 8%;
+    background-color: #ff4c68;
+    text-align: center;
+
+
+}
+.end{
+  font-size: 3.5rem;
+    font-weight: bold;
+    padding-bottom: 4%;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+
+}
+/* footer */
+#footer{
+  background-color: white;
+  text-align: center;
+
+}
+/* media queries for responsivness */
+
+@media (max-width:991px)
+{
+  .tit-images{
+    position: static;
+    text-align: center;
+    transform: rotate(0deg);
+    width:50%;
+  }
+    #title{
+      text-align: center;
+    }
+
+}
+@media (max-width:1020px)
+{
+ #pricing{
+   margin:10% 2%;
+ }
+}
